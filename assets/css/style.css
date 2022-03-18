@@ -116,6 +116,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+   font-family: 'Courgette', cursive;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -125,6 +126,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  font-family: 'Courgette', cursive;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -7230,6 +7232,7 @@ textarea.form-control-lg {
 
 .lh-lg {
   line-height: 2 !important;
+  font-family: 'Courgette', cursive;
 }
 
 .text-start {
@@ -10817,6 +10820,18 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 700;
   font-family: 'Smooch', cursive;
+}
+.display-3 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+ font-family: 'Courgette', cursive;
+}
+.display-3--intro {
+  display: inline-block;
+  font-weight: 700;
+ 
+  font-family: 'Courgette', cursive;
+
 }
 .display-2--description {
   font-size: 1rem;
