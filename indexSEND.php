@@ -630,7 +630,7 @@ require_once 'twilio-php-main/src/Twilio/autoload.php';
 use Twilio\Rest\Client; 
  
 $sid    = "ACda81cfc1440ca8c1d07390792849633b"; 
-$token  = "6916903550aa11a4b3a1d860d67d7466"; 
+$token  = "e062dd39642ffb9c39877b26b0dc6a0d"; 
 $twilio = new Client($sid, $token); 
 $n = $_POST["Nombre"];
 $t = $_POST["texto"];
