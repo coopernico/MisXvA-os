@@ -312,7 +312,7 @@
           <span class="display-2--intro">Mis XV Años</span>
           </h1>
            <p class="lh-lg">
-            Con la bendición de Dios, y el amor que mis padres me han dado, me siento feliz de llegar a este momento de mi vida, el día que dejare atrás mi infancia y comenzar un nuevo viaje.
+            Con la bendición de Dios, y el amor que mis padres me han dado, me siento feliz de llegar a este momento de mi vida, el día que dejare atrás mi infancia y comenzare un nuevo viaje.
             <br>
             
             <span class="display-3--intro">Te esperamos para festejar juntos.</span>
@@ -418,10 +418,10 @@
       <h2>Horarios</h2>
       <div class="heading-line"></div>
 
-      <span class="display-3--intro">xxxxx</span>
-      <span class="display-3--intro">xxxxx</span>
-      <span class="display-3--intro">xxxxx</span>
-      <span class="display-3--intro">xxxxx</span>
+      <span class="display-3--intro">4:00pm Misa</span>
+      <span class="display-3--intro">5:00pm Recepción</span>
+      <span class="display-3--intro">6:30pm Comida </span>
+      <span class="display-3--intro">8:00pm Vals</span>
       </div>
      <br>
      <br>
@@ -522,13 +522,52 @@
       </div>
       <div class="modal-body">
         <p class="display-3--intro">
-         ...............En Proceso Funcion..............
-       </p>
-       
+     
+          <form action="https://localhost/Misxvaños/indexSEND.php" method="post">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Familia o Invitado:</label>
+            <input type="text" class="form-control" id="recipient-name" name="Nombre">
+          </div>
+          <label for="recipient-name" class="col-form-label">Selecciona número de invitados:</label>
+          <br>
+           <select class="custom-select" id="inputGroupSelect01" name="numero">
+           <option selected>Personas que asistirán</option>
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="12">12</option>
+           <option value="13">13</option>
+           <option value="14">14</option>
+           <option value="15">15</option>
+           <option value="16">16</option>
+           <option value="17">17</option>
+           <option value="18">18</option>
+           <option value="19">19</option>
+           <option value="20">20</option>
+
+
+           </select>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">En caso de no asistir o tener dudas escribir aquí:</label>
+            <textarea class="form-control" id="message-text" name="texto"></textarea>
+          </div>
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-              </div>
+        <input type="submit" class="btn btn-primary" value="Enviar Confirmación" >
+        </form>
+       </p>
+       
+      </div>
     </div>
   </div>
 </div>
